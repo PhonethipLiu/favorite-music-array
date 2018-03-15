@@ -1,0 +1,58 @@
+/* font-family: 'Permanent Marker', cursive; */
+
+
+body {
+    padding: 6rem 0rem;
+    margin: 0;
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    grid-template-columns: 12;
+    grid-gap: 36px;
+    background: radial-gradient(  white, white, rgba(142, 145, 142, 0.514));
+    font-size: .8rem;
+}
+
+h1, h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5rem;
+}
+
+h4 { /* text dropshadow */
+    color:rgba(61, 61, 61, 0.767);
+    font-size: 2rem;
+    font-weight: lighter; 
+    letter-spacing: .03rem;
+    /* text-shadow: 1px 1px 20px rgba(48, 47, 47, 0.8); */
+}
+
+h5 {
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: rgba(218, 66, 20, 0.932);
+}
+
+header {
+    padding-bottom: 3rem;
+}
+
+main .col {
+    padding: 2rem;
+    box-shadow: 10px 15px 29px 10px rgba(196, 196, 196, 0.283);  
+    margin: 1rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+form {
+    padding-top: 2rem;
+}
+
+#button--row {
+    padding-top: 1rem;
+    font-size: .5rem;
+}
