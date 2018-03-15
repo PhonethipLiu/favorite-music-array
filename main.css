@@ -56,3 +56,12 @@ form {
     padding-top: 1rem;
     font-size: .5rem;
 }
+
+footer {
+    font-size: .7rem;
+    text-align: center;
+    padding-top: 3rem;
+    text-transform: uppercase;
+    color:rgba(61, 61, 61, 0.767);
+    letter-spacing: .2rem;
+}
