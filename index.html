@@ -19,18 +19,28 @@
             <h1>My Music Playlist</h1>
 
             <form id="add-new-song">
+                <h4>Enter a new song to your playlist</h4>
                 <div class="form-row">
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Enter Song title" id="song--input">
+                        <label>Song</label>
+                        <input type="text" class="form-control" placeholder="Enter Song title" id="song--input">
                     </div>
                     <div class="col">
-                    <input type="text" class="form-control" placeholder="Enter Artist name" id="artist--input">
+                        <label>Artist </label>
+                        <input type="text" class="form-control" placeholder="Enter Artist name" id="artist--input">
                     </div>
                     <div class="col">
+                        <label>Album </label>
                         <input type="text" class="form-control" placeholder="Enter Album name" id="album--input">
                     </div>
-                    <button type="button" class="btn btn-dark" id="add--btn">Add to list</button>
                 </div>
+                <div class="form-row" id="button--row">
+                    <div class="col">
+                        <button type="button" class="btn btn-dark btn-sm" id="add--btn">Add to list</button>
+                        <button type="button" class="btn btn-dark btn-sm" id="clear--btn">Clear</button>
+                    </div>
+                </div>
+               
             </form>
            
         </div>

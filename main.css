@@ -20,7 +20,15 @@ h1 {
     line-height: 5rem;
 }
 
-h5{
+h4 { /* text dropshadow */
+    color:rgba(61, 61, 61, 0.767);
+    font-size: 2rem;
+    font-weight: lighter; 
+    letter-spacing: .03rem;
+    /* text-shadow: 1px 1px 20px rgba(48, 47, 47, 0.8); */
+}
+
+h5 {
     font-size: .7rem;
     text-transform: uppercase;
     color: rgba(218, 66, 20, 0.932);
@@ -36,11 +44,15 @@ main .col {
     margin: 1rem;
 }
 
-
 hr {
     margin: 2rem 0rem;
 }
 
 form {
+    padding-top: 2rem;
+}
+
+#button--row {
     padding-top: 1rem;
+    font-size: .5rem;
 }
