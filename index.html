@@ -18,7 +18,7 @@
         <div>
             <h1>My Music Playlist</h1>
 
-            <form>
+            <form id="add-new-song">
                 <div class="form-row">
                     <div class="col">
                     <input type="text" class="form-control" placeholder="Enter Song title" id="song--input">
@@ -29,16 +29,10 @@
                     <div class="col">
                         <input type="text" class="form-control" placeholder="Enter Album name" id="album--input">
                     </div>
-                    <button type="button" class="btn btn-dark" onclick="displayNewSong()">Add new song</button>
+                    <button type="button" class="btn btn-dark" id="add--btn">Add to list</button>
                 </div>
             </form>
            
-            <!-- <form>
-                <input> song
-                <input> album
-                <input> artist
-                <button type="button" class="btn btn-dark">add new song</button>
-            </form> -->
         </div>
     </header>
        <!-- For this exercise, each song is from a unique artist and album. 
@@ -55,23 +49,17 @@
         <div class="row">
             <section class=" col container-songs">
                 <h3>Songs</h3>
-                <article id="songs">
-
-                </article>
+                <article id="songs"></article>
             </section>
 
             <section class="col container-artists">
                 <h3>Artists</h3>
-                <article id="artists">
-
-                </article>
+                <article id="artists"> </article>
             </section>
 
             <section class="col container-albums">
                 <h3>Albums</h3>
-                <article id="albums">
-
-                </article>
+                <article id="albums"></article>
             </section>
         </div>
     
